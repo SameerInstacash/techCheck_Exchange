@@ -57,10 +57,18 @@ class UserDetailVC: UIViewController {
                   "email" : self.txtFieldEmail.text ?? ""]
         
         //print("params = \(params)")
+        
+        //var header = HTTPHeaders()
+        //header = ["X-API-KEY" : "CODEX@123"]
     
         self.showHudLoader()
         
+        if let url = AppUserDefaults.value(forKey: "AppBaseUrl") as? String {
+            AppBaseUrl = url
+        }
+        
         let webService = AF.request(kUpdateCustomerURL, method: .post, parameters: params, encoding: URLEncoding.httpBody, headers: nil, interceptor: nil, requestModifier: nil)
+        //webService.authenticate(username: "admin", password: "1234").responseJSON { (responseData) in
         webService.responseJSON { (responseData) in
             
             self.hud.dismiss()
@@ -71,6 +79,7 @@ class UserDetailVC: UIViewController {
                                 
                 do {
                     let json = try JSON(data: responseData.data ?? Data())
+                    //print(json)
                     
                     if json["status"] == "Success" {
                         

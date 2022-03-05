@@ -117,6 +117,8 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                     AppUserDefaults.setValue(tokens.strType, forKey: "storeType")
                     AppUserDefaults.setValue(tokens.strIsTradeOnline, forKey: "tradeOnline")
                     
+                    AppUserDefaults.setValue(tokens.strUrl, forKey: "AppBaseUrl")
+                    
                     self.verifyUserSmartCode()
                     
                     break
@@ -143,7 +145,7 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                 self.storeToken = String(result.value)
                 print("code is : \(self.storeToken.prefix(4))")
                 
-                if self.storeToken.count >= 4 {
+                if self.storeToken.count >= 8 {
                     
                     let enteredToken = self.storeToken.prefix(4)
                     
@@ -154,6 +156,8 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                             AppUserDefaults.setValue(tokens.strTnc, forKey: "tncendpoint")
                             AppUserDefaults.setValue(tokens.strType, forKey: "storeType")
                             AppUserDefaults.setValue(tokens.strIsTradeOnline, forKey: "tradeOnline")
+                            
+                            AppUserDefaults.setValue(tokens.strUrl, forKey: "AppBaseUrl")
                             
                             self.verifyUserSmartCode()
                             
@@ -610,10 +614,18 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
         //print("params = \(params)")
         //print(kStartSessionURL)
         //44017470
+        
+        //var header = HTTPHeaders()
+        //header = ["X-API-KEY" : "CODEX@123"]
     
         self.showHudLoader()
         
+        if let url = AppUserDefaults.value(forKey: "AppBaseUrl") as? String {
+            AppBaseUrl = url
+        }
+        
         let webService = AF.request(kStartSessionURL, method: .post, parameters: params, encoding: URLEncoding.httpBody, headers: nil, interceptor: nil, requestModifier: nil)
+        //webService.authenticate(username: "admin", password: "1234").responseJSON { (responseData) in
         webService.responseJSON { (responseData) in
             
             DispatchQueue.main.async {

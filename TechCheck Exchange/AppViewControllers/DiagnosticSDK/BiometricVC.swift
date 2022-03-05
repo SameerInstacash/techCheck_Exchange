@@ -175,6 +175,29 @@ class BiometricVC: UIViewController {
                     
                 }
                 
+                
+                //*
+                switch UIDevice.current.currentModelName {
+                case "iPhone X","iPhone XR","iPhone XS","iPhone XS Max","iPhone 11","iPhone 11 Pro","iPhone 11 Pro Max","iPhone 12 mini","iPhone 12","iPhone 12 Pro","iPhone 12 Pro Max", "iPhone 13 Mini", "iPhone 13", "iPhone 13 Pro", "iPhone 13 Pro Max", "iPad Pro (11-inch) (1st generation)", "iPad Pro (11-inch) (2nd generation)", "iPad Pro (12.9-inch) (3rd generation)", "iPad Pro (12.9-inch) (4th generation)" :
+                                        
+                    self.testImgView.image = #imageLiteral(resourceName: "face-id")
+                    
+                    self.headingLbl.text = self.getLocalizatioStringValue(key: "Checking Face-Id")
+                    self.headingLbl.font = UIFont.init(name: AppBrownFontBold, size: self.headingLbl.font.pointSize)
+                    self.subHeading1Lbl.text = self.getLocalizatioStringValue(key: "First, enable the face-Id function on your phone")
+                    self.subHeading1Lbl.font = UIFont.init(name: AppBrownFontRegular, size: self.subHeading1Lbl.font.pointSize)
+                    self.subHeading2Lbl.text = self.getLocalizatioStringValue(key: "During the test place your face on the scanner as you normally would to unlock your phone")
+                    self.subHeading2Lbl.font = UIFont.init(name: AppBrownFontRegular, size: self.subHeading2Lbl.font.pointSize)
+                    
+                   
+                    break
+                default:
+                    
+                    break
+                }
+                //*/
+                
+                
             }
             
         }

@@ -26,6 +26,7 @@
 		592ED6B526CBB99A008B2023 /* Druk-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 592ED6AD26CBB99A008B2023 /* Druk-Medium.otf */; };
 		592ED6B626CBB99A008B2023 /* Druk-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 592ED6AE26CBB99A008B2023 /* Druk-BoldItalic.otf */; };
 		592ED6B726CBB99A008B2023 /* Druk-Super.otf in Resources */ = {isa = PBXBuildFile; fileRef = 592ED6AF26CBB99A008B2023 /* Druk-Super.otf */; };
+		595ED80826EC969900A46AA1 /* GoogleService-Info-SmartExc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 595ED80726EC969800A46AA1 /* GoogleService-Info-SmartExc.plist */; };
 		5964EF4E269D47390006E415 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964EF4D269D47390006E415 /* HomeVC.swift */; };
 		5964EFBA269D6E7D0006E415 /* EarphoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964EFAA269D6E7C0006E415 /* EarphoneVC.swift */; };
 		5964EFBB269D6E7D0006E415 /* ChargerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964EFAB269D6E7C0006E415 /* ChargerVC.swift */; };
@@ -167,6 +168,7 @@
 		592ED6AD26CBB99A008B2023 /* Druk-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Druk-Medium.otf"; sourceTree = "<group>"; };
 		592ED6AE26CBB99A008B2023 /* Druk-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Druk-BoldItalic.otf"; sourceTree = "<group>"; };
 		592ED6AF26CBB99A008B2023 /* Druk-Super.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Druk-Super.otf"; sourceTree = "<group>"; };
+		595ED80726EC969800A46AA1 /* GoogleService-Info-SmartExc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-SmartExc.plist"; sourceTree = "<group>"; };
 		5964EF4D269D47390006E415 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		5964EFAA269D6E7C0006E415 /* EarphoneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarphoneVC.swift; sourceTree = "<group>"; };
 		5964EFAB269D6E7C0006E415 /* ChargerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargerVC.swift; sourceTree = "<group>"; };
@@ -509,6 +511,7 @@
 				59AE250C269C30A20072E1FB /* Assets.xcassets */,
 				59AE25E0269C40750072E1FB /* TechCheck Exchange-Bridging-Header.h */,
 				59AE2511269C30A20072E1FB /* Info.plist */,
+				595ED80726EC969800A46AA1 /* GoogleService-Info-SmartExc.plist */,
 				596A4C6726A5A030000A8C46 /* GoogleService-Info.plist */,
 				59AE25BB269C363B0072E1FB /* GoogleService-Info-C2B2B.plist */,
 			);
@@ -785,6 +788,7 @@
 				596A4CAE26A5B8BF000A8C46 /* CountryLanguageCVCell.xib in Resources */,
 				59AE2610269C41960072E1FB /* Brown-RegularItalic.ttf in Resources */,
 				596A4CAC26A5B8BF000A8C46 /* CountryCVCell.xib in Resources */,
+				595ED80826EC969900A46AA1 /* GoogleService-Info-SmartExc.plist in Resources */,
 				592ED6B126CBB99A008B2023 /* Druk-SuperItalic.otf in Resources */,
 				59AE2570269C32A70072E1FB /* whistle.mp3 in Resources */,
 				5964EFDD269D6FA50006E415 /* rotation.gif in Resources */,

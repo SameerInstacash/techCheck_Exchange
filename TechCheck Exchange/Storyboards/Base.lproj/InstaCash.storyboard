@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DVN-65-o9i">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DVN-65-o9i">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -159,7 +159,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch screen test" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQY-Tb-6Q7" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -182,7 +182,7 @@
                                 </variation>
                             </label>
                             <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPO-eN-S6h">
-                                <rect key="frame" x="168.5" y="250" width="77" height="34"/>
+                                <rect key="frame" x="168.5" y="230" width="77" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Guide me">
                                     <color key="titleColor" red="0.29803921570000003" green="0.64705882349999999" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -195,7 +195,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press “START” and run your finger over all the squares until each one turns purple" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2CK-G6-Uk7" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="39.5"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -432,7 +432,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking screen for white or black dot" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mH-dO-LyU" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -455,7 +455,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6T-nO-pX2" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="69"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="44.5"/>
                                 <string key="text">We will show you multiple coloured screen with maximum brightness for 8-10 seconds. Please tell us if you see a black dot click “START” to begin</string>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -660,7 +660,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Speaker" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pxr-c5-OL6" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="29"/>
+                                <rect key="frame" x="20" y="152" width="374" height="19"/>
                                 <fontDescription key="fontDescription" name="Brown-Bold" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -683,7 +683,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your phone will play some numbers loud, and then type it in the text box provided" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hu4-lK-7MK" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="191" width="374" height="39.5"/>
+                                <rect key="frame" x="20" y="181" width="374" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -706,7 +706,7 @@
                                 </variation>
                             </label>
                             <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ze0-L5-WCh">
-                                <rect key="frame" x="134.5" y="250.5" width="145" height="35"/>
+                                <rect key="frame" x="134.5" y="230.5" width="145" height="35"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Obk-5R-FQa">
@@ -901,7 +901,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Microphone" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2g-vV-JY1" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -924,7 +924,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your microphone will listen your voice for 4 seconds to check your microphone is working or not" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nD9-sK-FRR" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="54.5"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="44.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1133,7 +1133,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Vibrator" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIC-d9-Go3" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="29"/>
+                                <rect key="frame" x="20" y="152" width="374" height="19"/>
                                 <fontDescription key="fontDescription" name="Brown-Bold" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1156,7 +1156,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count how many times your phone has vibrated and then type it in the text box provided" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhR-Ca-EAK" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="191" width="374" height="39.5"/>
+                                <rect key="frame" x="20" y="181" width="374" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1179,7 +1179,7 @@
                                 </variation>
                             </label>
                             <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y3c-td-3LL">
-                                <rect key="frame" x="134.5" y="250.5" width="145" height="35"/>
+                                <rect key="frame" x="134.5" y="230.5" width="145" height="35"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="XoP-m7-qCf">
@@ -1374,7 +1374,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking FlashLight" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En2-2n-aZu" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1397,7 +1397,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count how many times your phone's flashLight blinked and then type it in the text box provided" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2d-Vj-5OO" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="39.5"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1420,7 +1420,7 @@
                                 </variation>
                             </label>
                             <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8MX-zA-Ald">
-                                <rect key="frame" x="134.5" y="250" width="145" height="35"/>
+                                <rect key="frame" x="134.5" y="230" width="145" height="35"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="YoO-j1-OtS">
@@ -1616,7 +1616,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Device Rotation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oyb-p3-xPG" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1639,7 +1639,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please ensure device rotation option is enabled. Press “START“ and rotate your device as seen below" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYL-XV-ZN6" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="54.5"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="44.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1662,7 +1662,7 @@
                                 </variation>
                             </label>
                             <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2H-Gj-KJF">
-                                <rect key="frame" x="168.5" y="265" width="77" height="34"/>
+                                <rect key="frame" x="168.5" y="245" width="77" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Guide me">
                                     <color key="titleColor" red="0.29803921570000003" green="0.64705882349999999" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1893,7 +1893,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Proximity Sensors" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Djl-YD-KEK" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1916,7 +1916,7 @@
                                 </variation>
                             </label>
                             <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW1-Ho-fkA">
-                                <rect key="frame" x="168.5" y="229.5" width="77" height="34"/>
+                                <rect key="frame" x="168.5" y="219.5" width="77" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Guide me">
                                     <color key="titleColor" red="0.29803921570000003" green="0.64705882349999999" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1929,7 +1929,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wave your hand on the device’s screen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxz-nv-1JT">
-                                <rect key="frame" x="20" y="190.5" width="374" height="19"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="19"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2156,7 +2156,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Volume Buttons" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vY2-lY-L3q" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2179,7 +2179,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Follow the instructions below to complete check" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzQ-7U-i9W" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="25"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="15"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2441,7 +2441,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Earphone" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9M-0J-9KC" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2464,7 +2464,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please plug-in your earphone" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXh-5j-lY9" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="25"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="15"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2663,7 +2663,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Charger" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkH-at-wgN" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2686,7 +2686,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please plug-in your charger" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7p-MZ-2Te" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="25"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="15"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2885,7 +2885,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Camera" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxm-zN-nJc" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2908,7 +2908,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get ready to smile. We’re making sure this device is selfie-ready!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBC-e7-fPV" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="39.5"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2942,10 +2942,10 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SjP-A5-iUV">
-                                <rect key="frame" x="20" y="674" width="374" height="53"/>
+                                <rect key="frame" x="20" y="694" width="374" height="33"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Tap anywhere on the screen to autofocus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FsP-Ld-zAV" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="14"/>
                                         <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="15"/>
                                         <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2968,7 +2968,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Press capture to take a shot!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d83-0p-chR" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="29" width="374" height="24"/>
+                                        <rect key="frame" x="0.0" y="19" width="374" height="14"/>
                                         <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="15"/>
                                         <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -3163,7 +3163,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking Fingerprint Scanner" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AV-gV-HZG" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3186,7 +3186,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First, please enable fingerprint function" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJf-dF-Z2n" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190.5" width="374" height="25"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="15"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3209,7 +3209,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Then you will place your finger on the fingerprint scanner like you normally would during unlock" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Q-oB-O0j" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="220.5" width="374" height="54.5"/>
+                                <rect key="frame" x="20" y="200.5" width="374" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3412,7 +3412,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checking WiFi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as6-3W-et0" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="152" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="152" width="374" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="20"/>
                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3435,7 +3435,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To test WIFI, turn WIFI on and connect to your preferred network then Press “START“" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FW0-0y-jW2">
-                                <rect key="frame" x="20" y="190.5" width="374" height="37.5"/>
+                                <rect key="frame" x="20" y="180.5" width="374" height="37.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3629,7 +3629,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please make sure Bluetooth, GPS and Wifi are enabled on your device and press begin to start the tests" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDL-2e-O8U" customClass="PaddingLabel" customModule="TechCheck_Exchange" customModuleProvider="target">
-                                <rect key="frame" x="20" y="162" width="374" height="54.5"/>
+                                <rect key="frame" x="20" y="162" width="374" height="44.5"/>
                                 <fontDescription key="fontDescription" name="Brown-RegularAlt" family="Brown" pointSize="16"/>
                                 <color key="textColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3754,7 +3754,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST RESULT SUMMARY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXT-y0-P0o">
-                                        <rect key="frame" x="116" y="12.5" width="182.5" height="19"/>
+                                        <rect key="frame" x="113" y="12.5" width="188" height="19"/>
                                         <fontDescription key="fontDescription" name="Supply-Regular" family="Supply" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -3856,94 +3856,94 @@
     </scenes>
     <designables>
         <designable name="2CK-G6-Uk7">
-            <size key="intrinsicContentSize" width="620.5" height="25"/>
+            <size key="intrinsicContentSize" width="610.5" height="15"/>
         </designable>
         <designable name="2mH-dO-LyU">
-            <size key="intrinsicContentSize" width="372.5" height="28.5"/>
+            <size key="intrinsicContentSize" width="362.5" height="18.5"/>
         </designable>
         <designable name="5AV-gV-HZG">
-            <size key="intrinsicContentSize" width="289" height="28.5"/>
+            <size key="intrinsicContentSize" width="279" height="18.5"/>
         </designable>
         <designable name="Djl-YD-KEK">
-            <size key="intrinsicContentSize" width="269" height="28.5"/>
+            <size key="intrinsicContentSize" width="259" height="18.5"/>
         </designable>
         <designable name="EBC-e7-fPV">
-            <size key="intrinsicContentSize" width="493.5" height="25"/>
+            <size key="intrinsicContentSize" width="483.5" height="15"/>
         </designable>
         <designable name="En2-2n-aZu">
-            <size key="intrinsicContentSize" width="201" height="28.5"/>
+            <size key="intrinsicContentSize" width="191" height="18.5"/>
         </designable>
         <designable name="FsP-Ld-zAV">
-            <size key="intrinsicContentSize" width="314.5" height="24"/>
+            <size key="intrinsicContentSize" width="304.5" height="14"/>
         </designable>
         <designable name="Gxm-zN-nJc">
-            <size key="intrinsicContentSize" width="179" height="28.5"/>
+            <size key="intrinsicContentSize" width="169" height="18.5"/>
         </designable>
         <designable name="Hu4-lK-7MK">
-            <size key="intrinsicContentSize" width="624.5" height="25"/>
+            <size key="intrinsicContentSize" width="614.5" height="15"/>
         </designable>
         <designable name="JQY-Tb-6Q7">
-            <size key="intrinsicContentSize" width="173.5" height="28.5"/>
+            <size key="intrinsicContentSize" width="163.5" height="18.5"/>
         </designable>
         <designable name="Oyb-p3-xPG">
-            <size key="intrinsicContentSize" width="252.5" height="28.5"/>
+            <size key="intrinsicContentSize" width="242.5" height="18.5"/>
         </designable>
         <designable name="Pxr-c5-OL6">
-            <size key="intrinsicContentSize" width="182.5" height="29"/>
+            <size key="intrinsicContentSize" width="172.5" height="19"/>
         </designable>
         <designable name="RIC-d9-Go3">
-            <size key="intrinsicContentSize" width="187" height="29"/>
+            <size key="intrinsicContentSize" width="177" height="19"/>
         </designable>
         <designable name="RhR-Ca-EAK">
-            <size key="intrinsicContentSize" width="678.5" height="25"/>
+            <size key="intrinsicContentSize" width="668.5" height="15"/>
         </designable>
         <designable name="WYL-XV-ZN6">
-            <size key="intrinsicContentSize" width="757.5" height="25"/>
+            <size key="intrinsicContentSize" width="747.5" height="15"/>
         </designable>
         <designable name="YzQ-7U-i9W">
-            <size key="intrinsicContentSize" width="372.5" height="25"/>
+            <size key="intrinsicContentSize" width="362.5" height="15"/>
         </designable>
         <designable name="as6-3W-et0">
-            <size key="intrinsicContentSize" width="143" height="28.5"/>
+            <size key="intrinsicContentSize" width="133" height="18.5"/>
         </designable>
         <designable name="d83-0p-chR">
-            <size key="intrinsicContentSize" width="228.5" height="24"/>
+            <size key="intrinsicContentSize" width="218.5" height="14"/>
         </designable>
         <designable name="d9Q-oB-O0j">
-            <size key="intrinsicContentSize" width="730" height="25"/>
+            <size key="intrinsicContentSize" width="720" height="15"/>
         </designable>
         <designable name="e6T-nO-pX2">
-            <size key="intrinsicContentSize" width="1095" height="25"/>
+            <size key="intrinsicContentSize" width="1085" height="15"/>
         </designable>
         <designable name="e9M-0J-9KC">
-            <size key="intrinsicContentSize" width="193.5" height="28.5"/>
+            <size key="intrinsicContentSize" width="183.5" height="18.5"/>
         </designable>
         <designable name="f7p-MZ-2Te">
-            <size key="intrinsicContentSize" width="217" height="25"/>
+            <size key="intrinsicContentSize" width="207" height="15"/>
         </designable>
         <designable name="gJf-dF-Z2n">
-            <size key="intrinsicContentSize" width="309" height="25"/>
+            <size key="intrinsicContentSize" width="299" height="15"/>
         </designable>
         <designable name="h2d-Vj-5OO">
-            <size key="intrinsicContentSize" width="731.5" height="25"/>
+            <size key="intrinsicContentSize" width="721.5" height="15"/>
         </designable>
         <designable name="jDL-2e-O8U">
-            <size key="intrinsicContentSize" width="784" height="25"/>
+            <size key="intrinsicContentSize" width="774" height="15"/>
         </designable>
         <designable name="nD9-sK-FRR">
-            <size key="intrinsicContentSize" width="725" height="25"/>
+            <size key="intrinsicContentSize" width="715" height="15"/>
         </designable>
         <designable name="rkH-at-wgN">
-            <size key="intrinsicContentSize" width="180" height="28.5"/>
+            <size key="intrinsicContentSize" width="170" height="18.5"/>
         </designable>
         <designable name="t2g-vV-JY1">
-            <size key="intrinsicContentSize" width="214.5" height="28.5"/>
+            <size key="intrinsicContentSize" width="204.5" height="18.5"/>
         </designable>
         <designable name="tXh-5j-lY9">
-            <size key="intrinsicContentSize" width="230.5" height="25"/>
+            <size key="intrinsicContentSize" width="220.5" height="15"/>
         </designable>
         <designable name="vY2-lY-L3q">
-            <size key="intrinsicContentSize" width="253" height="28.5"/>
+            <size key="intrinsicContentSize" width="243" height="18.5"/>
         </designable>
     </designables>
     <resources>

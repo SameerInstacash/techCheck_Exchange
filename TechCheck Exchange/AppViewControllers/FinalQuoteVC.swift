@@ -40,7 +40,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     let hud = JGProgressHUD()
     let reachability: Reachability? = Reachability()
     var metaDetails = JSON()
-    var currentOrderId = ""
+    var currentOrderId = 0
     var arrFailedAndSkipedTest = [ModelCompleteDiagnosticFlow]()
     
     var arrQuestion = [String]()
@@ -240,10 +240,18 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                   "productId" : productId]
         
         //print("params = \(params)")
+        
+        //var header = HTTPHeaders()
+        //header = ["X-API-KEY" : "CODEX@123"]
     
         self.showHudLoader(msg: "Getting Price...")
         
+        if let url = AppUserDefaults.value(forKey: "AppBaseUrl") as? String {
+            AppBaseUrl = url
+        }
+        
         let webService = AF.request(kPriceCalcNewURL, method: .post, parameters: params, encoding: URLEncoding.httpBody, headers: nil, interceptor: nil, requestModifier: nil)
+        //webService.authenticate(username: "admin", password: "1234").responseJSON { (responseData) in
         webService.responseJSON { (responseData) in
             
             self.hud.dismiss()
@@ -254,10 +262,11 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                 
                 do {
                     let json = try JSON(data: responseData.data ?? Data())
+                    //print(json)
                     
                     if json["status"] == "Success" {
                         
-                        if  let offerpriceString = json["msg"].string {
+                        if let offerpriceString = json["msg"].int {
                                                         
                             DispatchQueue.main.async {
                                 
@@ -342,7 +351,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                 diagnosisChargeString = diagnosisChargeString * multiplier
                             }
                             
-                            var offer = Float(offerpriceString)!
+                            var offer = Float(offerpriceString)
                             if curCode != symbolNew {
                                 offer = offer * multiplier
                             }
@@ -388,7 +397,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
     }
     
-    func saveResult(price: String) {
+    func saveResult(price: Int) {
         
         var netType = "Mobile"
         if Luminous.Network.isConnectedViaWiFi {
@@ -411,7 +420,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         var IMEI = ""
         var productId = ""
         var customerId = ""
-        let resultCode = ""
+        let resultCode = 0
         var devicename = ""
         
         if let imei = AppUserDefaults.value(forKey: "imei_number") as? String {
@@ -444,10 +453,18 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                   "productId" : productId]
         
         //print("params = \(params)")
+        
+        //var header = HTTPHeaders()
+        //header = ["X-API-KEY" : "CODEX@123"]
     
         self.showHudLoader(msg: "")
         
+        if let url = AppUserDefaults.value(forKey: "AppBaseUrl") as? String {
+            AppBaseUrl = url
+        }
+        
         let webService = AF.request(kSavingResultURL, method: .post, parameters: params, encoding: URLEncoding.httpBody, headers: nil, interceptor: nil, requestModifier: nil)
+        //webService.authenticate(username: "admin", password: "1234").responseJSON { (responseData) in
         webService.responseJSON { (responseData) in
             
             self.hud.dismiss()
@@ -458,12 +475,13 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                 
                 do {
                     let json = try JSON(data: responseData.data ?? Data())
+                    //print(json)
                     
                     if json["status"] == "Success" {
                         
                         let msg = json["msg"]
-                        self.currentOrderId = msg["orderId"].string ?? ""
-                        self.lblOrderRef.text = "Order Ref " + self.currentOrderId
+                        self.currentOrderId = msg["orderId"].int ?? 0
+                        self.lblOrderRef.text = "Order Ref " + "\(self.currentOrderId)"
                         
                         self.showaAlert(message: self.getLocalizatioStringValue(key: "Details Synced to the server. Please contact Store Executive for further information"))
                         
@@ -501,10 +519,18 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                   "photo" : photoStr]
         
         //print("params = \(params)")
+        
+        //var header = HTTPHeaders()
+        //header = ["X-API-KEY" : "CODEX@123"]
     
         self.showHudLoader(msg: self.getLocalizatioStringValue(key: "Uploading..."))
         
+        if let url = AppUserDefaults.value(forKey: "AppBaseUrl") as? String {
+            AppBaseUrl = url
+        }
+        
         let webService = AF.request(kIdProofURL, method: .post, parameters: params, encoding: URLEncoding.httpBody, headers: nil, interceptor: nil, requestModifier: nil)
+        //webService.authenticate(username: "admin", password: "1234").responseJSON { (responseData) in
         webService.responseJSON { (responseData) in
             
             self.hud.dismiss()
@@ -515,6 +541,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                 
                 do {
                     let json = try JSON(data: responseData.data ?? Data())
+                    //print(json)
                     
                     if json["status"] == "Success" {
                         

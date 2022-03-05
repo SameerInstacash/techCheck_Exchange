@@ -11,9 +11,14 @@ import SwiftyJSON
 //var AppdidFinishTestDiagnosis: (() -> Void)?
 //var AppdidFinishRetryDiagnosis: (() -> Void)?
 
-var AppBaseUrl = "https://exuat.reboxed.co/api/v1/public/"
-var AppUserName = "storeIOS"
-var AppApiKey = "b99d0f356515682d17cc90265703afc9"
+//var AppBaseUrl = "https://exuat.reboxed.co/api/v1/public/"
+//var AppUserName = "storeIOS"
+//var AppApiKey = "b99d0f356515682d17cc90265703afc9"
+
+
+var AppBaseUrl = ""
+var AppUserName = "planetm"
+var AppApiKey = "fd9a42ed13c8b8a27b5ead10d054caaf"
 
 // Api Name
 let kStartSessionURL = AppBaseUrl + "startSession"

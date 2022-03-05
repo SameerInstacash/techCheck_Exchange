@@ -18,15 +18,15 @@ class PreviousQuoteVC: UIViewController {
     
     let hud = JGProgressHUD()
     let reachability: Reachability? = Reachability()
-    var orderID = ""
+    var orderID = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.setUIElements()
         
-        if self.orderID != "" {
-            self.txtFieldRefNum.text = orderID
+        if self.orderID != 0 {
+            self.txtFieldRefNum.text = "\(orderID)"
         }
     }
     
@@ -94,9 +94,7 @@ class PreviousQuoteVC: UIViewController {
     }
     
     func getSessionQuote() {
-        
-        //250367-9
-        
+                
         var IMEI = ""
         
         if let imei = AppUserDefaults.value(forKey: "imei_number") as? String {
@@ -110,10 +108,18 @@ class PreviousQuoteVC: UIViewController {
                   "quotationId" : self.txtFieldRefNum.text ?? ""]
         
         print("params = \(params)")
+        
+        //var header = HTTPHeaders()
+        //header = ["X-API-KEY" : "CODEX@123"]
     
         self.showHudLoader()
         
+        if let url = AppUserDefaults.value(forKey: "AppBaseUrl") as? String {
+            AppBaseUrl = url
+        }
+        
         let webService = AF.request(kGetSessionIdbyIMEIURL, method: .post, parameters: params, encoding: URLEncoding.httpBody, headers: nil, interceptor: nil, requestModifier: nil)
+        //webService.authenticate(username: "admin", password: "1234").responseJSON { (responseData) in
         webService.responseJSON { (responseData) in
             
             self.hud.dismiss()
@@ -124,6 +130,7 @@ class PreviousQuoteVC: UIViewController {
                                 
                 do {
                     let json = try JSON(data: responseData.data ?? Data())
+                    print(json)
                     
                     if json["status"] == "Success" {
                         

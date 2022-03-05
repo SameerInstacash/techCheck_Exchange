@@ -416,10 +416,18 @@ class DiagnosticTestResultVC: UIViewController, UITableViewDelegate, UITableView
                   "device" : UIDevice.current.currentModelName]
         
         //print("params = \(params)")
+        
+        //var header = HTTPHeaders()
+        //header = ["X-API-KEY" : "CODEX@123"]
     
         self.showHudLoader()
         
+        if let url = AppUserDefaults.value(forKey: "AppBaseUrl") as? String {
+            AppBaseUrl = url
+        }
+        
         let webService = AF.request(kGetProductDetailURL, method: .post, parameters: params, encoding: URLEncoding.httpBody, headers: nil, interceptor: nil, requestModifier: nil)
+        //webService.authenticate(username: "admin", password: "1234").responseJSON { (responseData) in
         webService.responseJSON { (responseData) in
             
             self.hud.dismiss()
@@ -430,6 +438,7 @@ class DiagnosticTestResultVC: UIViewController, UITableViewDelegate, UITableView
                                 
                 do {
                     let json = try JSON(data: responseData.data ?? Data())
+                    //print(json)
                     
                     if json["status"] == "Success" {
                         

@@ -247,10 +247,18 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
                   "photo" : photoStr]
         
         //print("params = \(params)")
+        
+        //var header = HTTPHeaders()
+        //header = ["X-API-KEY" : "CODEX@123"]
     
         self.showHudLoader(msg: self.getLocalizatioStringValue(key: "Uploading..."))
         
+        if let url = AppUserDefaults.value(forKey: "AppBaseUrl") as? String {
+            AppBaseUrl = url
+        }
+        
         let webService = AF.request(kIdProofURL, method: .post, parameters: params, encoding: URLEncoding.httpBody, headers: nil, interceptor: nil, requestModifier: nil)
+        //webService.authenticate(username: "admin", password: "1234").responseJSON { (responseData) in
         webService.responseJSON { (responseData) in
             
             self.hud.dismiss()
@@ -261,6 +269,7 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
                                 
                 do {
                     let json = try JSON(data: responseData.data ?? Data())
+                    print(json)
                     
                     if json["status"] == "Success" {
                         

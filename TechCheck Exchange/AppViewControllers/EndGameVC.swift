@@ -15,7 +15,7 @@ class EndGameVC: UIViewController {
     @IBOutlet weak var btnSeeOrderStatus: UIButton!
     @IBOutlet weak var btnChatWithUs: UIButton!
     
-    var orderId = ""
+    var orderId = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
