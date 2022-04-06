@@ -24,6 +24,7 @@ target 'TechCheck Exchange' do
     pod 'AlamofireImage'
     pod 'Intercom'
 
+    pod 'NewRelicAgent'
 
   target 'TechCheck ExchangeTests' do
     inherit! :search_paths

@@ -158,61 +158,68 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
-		<key>Pods-TechCheck Exchange-TechCheck ExchangeUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>25</integer>
-		</dict>
-		<key>Pods-TechCheck Exchange.xcscheme</key>
+		<key>NewRelicAgent.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
-		<key>Pods-TechCheck ExchangeTests.xcscheme</key>
+		<key>Pods-TechCheck Exchange-TechCheck ExchangeUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
-		<key>PopupDialog.xcscheme</key>
+		<key>Pods-TechCheck Exchange.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>Pods-TechCheck ExchangeTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
-		<key>PromisesObjC.xcscheme</key>
+		<key>PopupDialog.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
-		<key>QRCodeReader.swift.xcscheme</key>
+		<key>PromisesObjC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>29</integer>
 		</dict>
-		<key>SwiftGifOrigin.xcscheme</key>
+		<key>QRCodeReader.swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>30</integer>
 		</dict>
-		<key>SwiftyJSON.xcscheme</key>
+		<key>SwiftGifOrigin.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>31</integer>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>32</integer>
 		</dict>
 		<key>leveldb-library.xcscheme</key>
 		<dict>

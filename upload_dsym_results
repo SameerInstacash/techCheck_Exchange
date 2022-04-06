@@ -1,0 +1,21 @@
+uploading map to new relic
+executing upload_map_file_to_new_relic
+New Relic: map file upload attempt #1 (of 3)
+Using URL: https://mobile-symbol-upload.eu01.nr-data.net
+New Relic: map file upload attempt #2 (of 3)
+Using URL: https://mobile-symbol-upload.eu01.nr-data.net
+Traceback (most recent call last):
+  File "/Users/sameerkhan/Desktop/InstaCash Projects/TechCheck (Reboxed)/TechChceck-C2B2B/December-21/7:12:21/TechCheck Exchange/Pods/NewRelicAgent/NewRelic.xcframework/Resources/generateMap.py", line 96, in <module>
+    os.mkdir(workDir)
+OSError: [Errno 17] File exists: '/Users/sameerkhan/Library/Developer/Xcode/DerivedData/TechCheck_Exchange-csgehewblfxducamsxxjqvqeirsv/Build/Intermediates.noindex/TechCheck Exchange.build/Debug-iphoneos/TechCheck Exchange.build/tmp'
+New Relic: map file upload attempt #3 (of 3)
+Using URL: https://mobile-symbol-upload.eu01.nr-data.net
+executing upload_dsym_to_new_relic
+new relic: successfully uploaded dsym files
+ck_Exchange-csgehewblfxducamsxxjqvqeirsv/Build/Intermediates.noindex/TechCheck Exchange.build/Debug-iphoneos/TechCheck Exchange.build/tmp/542339f3af3b3a27a50508bede3aa761.map'
+New Relic: map file upload attempt #2 (of 3)
+Using URL: https://mobile-symbol-upload.eu01.nr-data.net
+New Relic: map file upload attempt #3 (of 3)
+Using URL: https://mobile-symbol-upload.eu01.nr-data.net
+executing upload_dsym_to_new_relic
+new relic: successfully uploaded dsym files

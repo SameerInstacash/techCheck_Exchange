@@ -8,12 +8,15 @@
 import UIKit
 import Firebase
 import Intercom
+import NewRelic
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        NewRelic.start(withApplicationToken: "eu01xx9adf7456c4eab6aaa960559e07fb5ee5579d-NRMA")
         
         sleep(2)
         FirebaseApp.configure()

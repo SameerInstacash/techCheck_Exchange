@@ -674,6 +674,7 @@
 				59AE24FE269C309E0072E1FB /* Resources */,
 				D2EB2DBC9C3F80E674982CBD /* [CP] Embed Pods Frameworks */,
 				59AE2598269C34BF0072E1FB /* ShellScript */,
+				59B083CB27FDA6D900B09009 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -886,6 +887,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		59B083CB27FDA6D900B09009 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nSCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\" \"eu01xx9adf7456c4eab6aaa960559e07fb5ee5579d-NRMA\"\n";
 		};
 		73DBE27F6FFD7053C714FC5D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
